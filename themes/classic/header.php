@@ -12,7 +12,7 @@
 <TD VALIGN="MIDDLE" ALIGN="RIGHT" CLASS="border"><A HREF="http://www.globalmegacorp.org/dvddb">DVDdb <? echo $config["version"]; ?></A></TD></TR>
 <TR><TD VALIGN="MIDDLE" ALIGN="CENTER" COLSPAN="3" CLASS="border">
 <DIV CLASS="pageheading"><? echo $config["sitename"]; ?></DIV><BR />
-<?
+<?php
 if (!empty($_COOKIE["userid"])) {
 	echo ("<DIV CLASS=\"plain\">You are currently logged in as ".$_COOKIE["username"].". If this is incorrect click <A HREF=\"login.php\">here</A> to login.</DIV>\n");
 }
@@ -21,12 +21,12 @@ if (!empty($_COOKIE["userid"])) {
 </TR>
 <TR>
 <TD COLSPAN="3" ALIGN="CENTER" CLASS="border">
-<?
+<?php
 echo implode(" | ", $content["menu"])."\n";
 ?>
       </td>
   </tr>
-<?
+<?php
 if (!saneempty($content["adminmenu"])) {
 	echo "<tr>\n";
 	echo "<td class=\"admin\">";
