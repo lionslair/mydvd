@@ -1,4 +1,4 @@
-<?
+<?php
 function greatescape($text)
 {
   if (!ini_get("magic_quotes_gpc")) {

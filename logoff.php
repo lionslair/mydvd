@@ -1,4 +1,4 @@
-<?
+<?php
 include("inc/common.php");
 setcookie("userid");
 setcookie("userpass");

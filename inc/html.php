@@ -1,4 +1,4 @@
-<?
+<?php
 // Common functions
 
 function addatt ($name, $value) {

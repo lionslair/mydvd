@@ -1,4 +1,4 @@
-<?
+<?php
 require("inc/menu.php");
 require("inc/html.php");
 require("inc/common.php");

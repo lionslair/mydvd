@@ -1,4 +1,4 @@
-<?
+<?php
 function datesel($name,$default,$low,$high,$step=1)
 {
   $data=array();

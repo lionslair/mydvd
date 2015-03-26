@@ -1,4 +1,4 @@
-<?
+<?php
 function genpass ($len=8)
 {
 	for ($i=1;$i<=$len;$i++) {

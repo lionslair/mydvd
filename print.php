@@ -1,4 +1,4 @@
-<?
+<?php
 $nocheck=TRUE;
 require("inc/menu.php");
 require("inc/html.php");

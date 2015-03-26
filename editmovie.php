@@ -1,4 +1,4 @@
-<?
+<?php
 require("inc/menu.php");
 require("inc/controls.php");
 require("inc/html.php");
@@ -77,7 +77,7 @@ if (isset($_POST["movieid"])) {
     if ($_POST["media"]!=1) $region="NULL";
     if ($_POST["genres"]=="") $genres="-1"; else $genres=$_POST["genres"];
     if ($_POST["movieid"]==0) {
-      $query='INSERT movie 
+      $query='INSERT movie
               VALUES (NULL,
 	              "'.intval($_COOKIE["userid"]).'",
 		      "'.greatescape($_POST["movietitle"]).'",
@@ -91,7 +91,7 @@ if (isset($_POST["movieid"])) {
 		      "'.intval($_POST["runtime"]).'",
 		      "'.intval($_POST["media"]).'",
 		      "'.greatescape($_POST["director"]).'",
-		      "'.greatescape($_POST["sound"]).'", 
+		      "'.greatescape($_POST["sound"]).'",
 		      "'.greatescape($_POST["video"]).'",
 		      "'.greatescape($_POST["extra"]).'",
 		      "'.greatescape($_POST["refno"]).'",

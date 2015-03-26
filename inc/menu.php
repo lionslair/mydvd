@@ -1,4 +1,4 @@
-<?
+<?php
 require("inc/db.php");
 require("inc/cookie.php");
 

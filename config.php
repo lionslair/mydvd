@@ -45,3 +45,4 @@ $output.=form_end();
 
 $content["body"] =& $output;
 dopage($content);
+?>

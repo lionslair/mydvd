@@ -3,7 +3,7 @@
 <title>upgrading database</title>
 </head>
 <body>
-<?
+<?php
 function dosquery($query)
 {
 	// Actually do some error checking

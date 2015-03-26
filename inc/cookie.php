@@ -1,4 +1,4 @@
-<?
+<?php
 function checkcookies()
 {
 	// I used a global. Shoot me.

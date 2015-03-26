@@ -1,5 +1,4 @@
-<?
-
+<?php
 require("inc/menu.php");
 require("inc/html.php");
 require("inc/common.php");
@@ -38,8 +37,8 @@ else
         {
             $class="tablecell1";
         }
-            
-            
+
+
         $cells = td("<A HREF=\"listmovies.php?userid=" . $row[0] . "\">" . htmlspecialchars($row[2]) . " " . htmlspecialchars($row[3]) . "</A>", "", $class);
         $cells.=td("<A HREF=\"mailto:" . $row[1] . "\">" . $row[1] . "</A>", "", $class);
         $cells.=td(htmlspecialchars($row[4]), "", $class);
